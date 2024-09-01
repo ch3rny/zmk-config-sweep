@@ -40,10 +40,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&kp ESC   &trans    &trans     &trans      &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp DEL
+&sk LGUI  &sk RALT  &sk LCTRL  &sk LSHIFT  &trans    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ENTER
+&trans    &trans    &trans     &trans      &trans    &kp TAB   &trans     &trans     &trans     &kp PRINTSCREEN
+                               &trans      &trans    &trans    &trans
             >;
         };
 
